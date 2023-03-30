@@ -1,0 +1,23 @@
+{
+  "name": "graphql-upload-sample",
+  "version": "1.0.0",
+  "devDependencies": {
+    "typescript": "4.9.5"
+  },
+  "author": "tanakaworld",
+  "license": "MIT",
+  "workspaces": [
+    "packages/client",
+    "packages/server"
+  ],
+  "engines": {
+    "node": "18.13.0"
+  },
+  "scripts": {
+    "dev:client": "npm run dev -w=client",
+    "dev:server": "npm run dev -w=server"
+  },
+  "dependencies": {
+    "express-graphql": "0.12.0"
+  }
+}
