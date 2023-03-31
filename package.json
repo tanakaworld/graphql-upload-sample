@@ -14,10 +14,10 @@
     "node": "18.13.0"
   },
   "scripts": {
-    "dev:client": "npm run dev -w=client",
-    "dev:server": "npm run dev -w=server"
+    "dev:client": "npm run dev -w client",
+    "dev:server": "npm run dev -w server"
   },
   "dependencies": {
-    "express-graphql": "0.12.0"
+    "graphql": "16.6.0"
   }
 }
